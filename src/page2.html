@@ -22,6 +22,15 @@
             <div>
                 <img src="./Avion.png" alt="">
             </div>
+            <div class="hidden lg:flex lg:gap-[30px] text-[#726E8D]">
+                <p>Plant pots</p>
+                <p>Ceramics</p>
+                <p>Tables</p>
+                <p>Tables</p>
+                <p>Crockery</p>
+                <p>Tableware</p>
+                <p>Cutlery</p>                
+            </div>
             <div class="flex gap-[20px]" >
                 <img src="./Search.png" alt="">
                 <img src="./Shopping--cart.png" alt="">
@@ -29,7 +38,89 @@
                 <img src="./Menu (1).png" alt="" class="lg:hidden">
             </div>
         </nav>
-        <section></section>
+        <section class="flex flex-col lg:flex-row bg-[#F9F9F9]">
+            <img src="./Product Image.png" alt="" class="lg:p-[50px] lg:w-[610px] lg:h-[660px]">
+            <div class="text-[#2A254B]">
+                <div class="text-[#2A254B]  flex flex-col gap-[10px] p-[50px] border-b-solid border-b-[1px] border-b-[#EBE8F4]">
+                    <p class="text-[36px] ">The Dandy Chair</p>
+                    <p class="text-[24px]">£250</p>
+                </div>
+                <p class="pl-[10%]">Product description</p>
+                <p class="pl-[10%] pt-[3%] lg:max-w-[500px]">A timeless design, with premium materials features as one of our most popular and iconic pieces. The dandy chair is perfect for any stylish living space with beech legs and lambskin leather upholstery.</p>
+                <div class="ml-[10%] mt-[4%]">
+                    <div class="mb-[20px]">
+                        <p>Dimensions</p>
+                    </div>
+                    <div class="flex">
+                        <div class="pr-[10%] border-r-solid border-r-[1px] border-r-[#EBE8F4]">
+                            <p class="pb-[2vh]">Height</p>
+                            <p>110cm</p>
+                        </div>
+                        <div class="px-[10%] border-r-solid border-r-[1px] border-r-[#EBE8F4]">
+                            <p class="pb-[2vh]">Width</p>
+                            <p>75cm</p>
+                        </div>
+                        <div class="pl-[10%]">
+                            <p class="pb-[2vh]">Depth</p>
+                            <p>50cm</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="ml-[10%] mt-[4%] flex flex-col gap-[5px]">
+                    <p>Quantitity</p>
+                    <input type="number" class="w-[90%] lg:w-[100px] h-[30px]">
+                    <div class="flex flex-col gap-[20px] lg:flex-row" >
+                        <div class="bg-[#FFFFFF] flex justify-center items-center w-[340px] h-[56px] lg:w-[186px]">Save to favorites</div>
+                        <div class="bg-[#2A254B] text-[#FFFFFF] flex justify-center items-center w-[300px] h-[56px] lg:w-[186px]">Add to cart</div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
+    <section class="flex flex-col items-center gap-[40px]   lg:hidden">
+        <p>You might also love these</p>
+        <div class="w-[100%] flex justify-end gap-[10px]">
+            <div class="flex flex-col gap-[20px] text-[#2A254B]">
+                <img src="./Photo (1).png" alt="">
+                <p>The Lucy Lamp</p>
+                <p>£399</p>
+            </div>
+            <div class="flex flex-col gap-[20px]">
+                <img src="./Parent (4).png" alt="">
+                <p>Rustic Vase Set</p>
+                <p>£155</p>
+            </div>
+        </div>
+        <div class="w-[100%] h-[60px] flex justify-center items-center">
+            <div class="w-[300px] h-[60px] flex justify-center items-center">
+                <p>See collection</p>
+            </div>
+        </div>
+    </section>
+    <section class="hidden lg:flex w-[100%] h-[500px] justify-center items-center flex-col gap-[30px]">
+        <p class="text-[#2A254B] text-[24px]">What makes our brand different</p>
+        <div class="flex gap-[]">
+            <div class="flex flex-col gap-[20px] bg-[#F9F9F9] w-[310px] h-[245px] text-[#2A254B] p-[50px]">
+                <img src="./Delivery.png" alt="" class="w-[24px] h-[24px]">
+                <p class="text-[20px]">Next day as standard</p>
+                <p>Order before 3pm and get your order the next day as standard</p>
+            </div>
+            <div class="flex flex-col gap-[20px] bg-[#F9F9F9] w-[310px] h-[245px] text-[#2A254B] p-[50px]">
+                <img src="./Checkmark--outline.png" alt="" class="w-[24px] h-[24px]">
+                <p class="text-[20px]">Made by true artisans</p>
+                <p>Handmade crafted goods made with real passion and craftmanship</p>
+            </div>
+            <div class="flex flex-col gap-[20px] bg-[#F9F9F9] w-[310px] h-[245px] text-[#2A254B] p-[50px]">
+                <img src="./Purchase.png" alt="" class="w-[24px] h-[24px]">
+                <p class="text-[20px]">Unbeatable prices</p>
+                <p>For our materials and quality you won’t find better prices anywhere</p>
+            </div>
+            <div class="flex flex-col gap-[20px] bg-[#F9F9F9] w-[310px] h-[245px] text-[#2A254B] p-[50px]">
+                <img src="./Sprout.png" alt="" class="w-[24px] h-[24px]">
+                <p class="text-[20px]">Recycled packaging</p>
+                <p>We use 100% recycled to ensure our footprint is more manageable</p>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
